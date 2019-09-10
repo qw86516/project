@@ -25,7 +25,9 @@
                 totalBrowse as totalBrowse,
                 totalCollection as totalCollection,
                 lable as lable,
-                status as status
+                status as status,
+                info as info,
+                brandName as brandName
         from zh_goods
         <trim prefix="where" prefixOverrides="and | or">
             <if test="id != null">
@@ -55,7 +57,9 @@
                 totalBrowse as totalBrowse,
                 totalCollection as totalCollection,
                 lable as lable,
-                status as status
+                status as status,
+                info as info,
+                brandName as brandName
         from zh_goods
         <trim prefix="where" prefixOverrides="and | or">
                 <if test="id != null and id!=''">
@@ -117,6 +121,12 @@
                 </if>
                 <if test="status != null and status!=''">
                     and status=#{status}
+                </if>
+                <if test="info != null and info!=''">
+                    and info=#{info}
+                </if>
+                <if test="brandName != null and brandName!=''">
+                    and brandName=#{brandName}
                 </if>
         </trim>
         <if test="beginPos != null and pageSize != null ">
@@ -187,6 +197,12 @@
                 <if test="status != null and status!=''">
                     and status=#{status}
                 </if>
+                <if test="info != null and info!=''">
+                    and info=#{info}
+                </if>
+                <if test="brandName != null and brandName!=''">
+                    and brandName=#{brandName}
+                </if>
         </trim>
     </select>
 
@@ -210,7 +226,9 @@
                         totalBrowse,
                         totalCollection,
                         lable,
-                        status)
+                        status,
+                        info,
+                        brandName)
         values(
                      #{price},
                      #{brand},
@@ -230,7 +248,9 @@
                      #{totalBrowse},
                      #{totalCollection},
                      #{lable},
-                    #{status})
+                     #{status},
+                     #{info},
+                    #{brandName})
     </insert>
 
     <update id="updateZhGoods" parameterType="com.zb.pojo.ZhGoods">
@@ -291,7 +311,13 @@
                             lable=#{lable},
                         </if>
                         <if test="status != null and status!=''">
-                            status=#{status}
+                            status=#{status},
+                        </if>
+                        <if test="info != null and info!=''">
+                            info=#{info},
+                        </if>
+                        <if test="brandName != null and brandName!=''">
+                            brandName=#{brandName}
                         </if>
         </trim>
     </update>

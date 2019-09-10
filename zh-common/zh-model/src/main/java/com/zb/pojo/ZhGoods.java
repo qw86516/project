@@ -45,6 +45,10 @@ public class ZhGoods implements Serializable {
     private String lable;
     //
     private Integer status;
+    //
+    private String info;
+    //
+    private String brandName;
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
@@ -165,5 +169,17 @@ public class ZhGoods implements Serializable {
     }
     public  Integer getStatus(){
         return this.status;
+    }
+    public void setInfo (String  info){
+        this.info=info;
+    }
+    public  String getInfo(){
+        return this.info;
+    }
+    public void setBrandName (String  brandName){
+        this.brandName=brandName;
+    }
+    public  String getBrandName(){
+        return this.brandName;
     }
 }
