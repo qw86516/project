@@ -9,7 +9,6 @@ import org.apache.ibatis.annotations.Mapper;
 public interface ZhUserMapper {
 
 	public ZhUser getZhUserById(@Param(value = "id") Long id)throws Exception;
-
 	public List<ZhUser>	getZhUserListByMap(Map<String,Object> param)throws Exception;
 
 	public Integer getZhUserCountByMap(Map<String,Object> param)throws Exception;

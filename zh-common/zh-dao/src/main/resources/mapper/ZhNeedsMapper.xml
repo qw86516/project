@@ -12,7 +12,8 @@
                 goodsBrand as goodsBrand,
                 goodsYear as goodsYear,
                 goodsModel as goodsModel,
-                goodsPrice as goodsPrice
+                goodsPrice as goodsPrice,
+                issuedType as issuedType
         from zh_needs
         <trim prefix="where" prefixOverrides="and | or">
             <if test="id != null">
@@ -29,7 +30,8 @@
                 goodsBrand as goodsBrand,
                 goodsYear as goodsYear,
                 goodsModel as goodsModel,
-                goodsPrice as goodsPrice
+                goodsPrice as goodsPrice,
+                issuedType as issuedType
         from zh_needs
         <trim prefix="where" prefixOverrides="and | or">
                 <if test="id != null and id!=''">
@@ -52,6 +54,9 @@
                 </if>
                 <if test="goodsPrice != null and goodsPrice!=''">
                     and goodsPrice=#{goodsPrice}
+                </if>
+                <if test="issuedType != null and issuedType!=''">
+                    and issuedType=#{issuedType}
                 </if>
         </trim>
         <if test="beginPos != null and pageSize != null ">
@@ -83,6 +88,9 @@
                 <if test="goodsPrice != null and goodsPrice!=''">
                     and goodsPrice=#{goodsPrice}
                 </if>
+                <if test="issuedType != null and issuedType!=''">
+                    and issuedType=#{issuedType}
+                </if>
         </trim>
     </select>
 
@@ -93,14 +101,16 @@
                         goodsBrand,
                         goodsYear,
                         goodsModel,
-                        goodsPrice)
+                        goodsPrice,
+                        issuedType)
         values(
                      #{userId},
                      #{goodsName},
                      #{goodsBrand},
                      #{goodsYear},
                      #{goodsModel},
-                    #{goodsPrice})
+                     #{goodsPrice},
+                    #{issuedType})
     </insert>
 
     <update id="updateZhNeeds" parameterType="com.zb.pojo.ZhNeeds">
@@ -122,7 +132,10 @@
                             goodsModel=#{goodsModel},
                         </if>
                         <if test="goodsPrice != null and goodsPrice!=''">
-                            goodsPrice=#{goodsPrice}
+                            goodsPrice=#{goodsPrice},
+                        </if>
+                        <if test="issuedType != null and issuedType!=''">
+                            issuedType=#{issuedType}
                         </if>
         </trim>
     </update>

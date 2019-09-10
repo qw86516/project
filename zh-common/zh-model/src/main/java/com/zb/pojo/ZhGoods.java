@@ -1,4 +1,7 @@
 package com.zb.pojo;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 /***
@@ -32,6 +35,8 @@ public class ZhGoods implements Serializable {
     //
     private String video;
     //
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern ="yyyy-MM-dd",timezone="GMT+8")
     private Date createtime;
     //
     private Integer collection;
