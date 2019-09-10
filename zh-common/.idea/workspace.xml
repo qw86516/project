@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373126e8-8c07-4313-ba21-84d44c834c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhGoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhNeedsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhNeedsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNeeds.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNeeds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhUser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,79 +29,133 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhEvaluationMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh-util/src/main/java/com/zb/util/RedisUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhGoodsMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/client/RestZhEvaluationClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/client/RestZhNeedsClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhGoods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="180">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNeeds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding>
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1298#1299#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1424#1425#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNews.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhEvaluation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhGoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -113,18 +176,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhMessageMapper.java" />
-        <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNeedsMapper.java" />
         <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNewsMapper.java" />
         <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhOrderMapper.java" />
-        <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhUserMapper.java" />
-        <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhCollectionMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zh-client/pom.xml" />
         <option value="$PROJECT_DIR$/zh-dao/pom.xml" />
         <option value="$PROJECT_DIR$/zh-util/src/main/java/zb/demo/util/MD5.java" />
         <option value="$PROJECT_DIR$/zh-util/src/main/java/com/zb/util/MD5.java" />
         <option value="$PROJECT_DIR$/zh-util/pom.xml" />
         <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhGoodsMapper.java" />
+        <option value="$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhGoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNeedsMapper.java" />
+        <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhUserMapper.java" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNeeds.java" />
+        <option value="$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhCollectionMapper.java" />
+        <option value="$PROJECT_DIR$/zh-model/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhCollection.java" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhGoods.java" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhMessage.java" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNews.java" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhOrder.java" />
+        <option value="$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhUser.java" />
       </list>
     </option>
   </component>
@@ -139,23 +211,16 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zh-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zh-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="640" />
-    <option name="y" value="360" />
+    <option name="x" value="910" />
+    <option name="y" value="97" />
     <option name="width" value="1040" />
     <option name="height" value="780" />
   </component>
@@ -177,37 +242,37 @@
             <path>
               <item name="zh-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="zh-common" type="462c0819:PsiDirectoryNode" />
-              <item name="zh-model" type="462c0819:PsiDirectoryNode" />
+              <item name="zh-dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zh-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="zh-common" type="462c0819:PsiDirectoryNode" />
-              <item name="zh-model" type="462c0819:PsiDirectoryNode" />
+              <item name="zh-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zh-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="zh-common" type="462c0819:PsiDirectoryNode" />
-              <item name="zh-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zh-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zh-common" type="462c0819:PsiDirectoryNode" />
-              <item name="zh-model" type="462c0819:PsiDirectoryNode" />
+              <item name="zh-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zh-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="zh-common" type="462c0819:PsiDirectoryNode" />
-              <item name="zh-model" type="462c0819:PsiDirectoryNode" />
+              <item name="zh-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zh-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zh-common" type="462c0819:PsiDirectoryNode" />
+              <item name="zh-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,17 +327,26 @@
       <updated>1567993919624</updated>
       <workItem from="1567993921695" duration="2962000" />
       <workItem from="1568076108305" duration="2498000" />
-      <workItem from="1568104184627" duration="689000" />
+      <workItem from="1568104184627" duration="4180000" />
     </task>
+    <task id="LOCAL-00001" summary="update model">
+      <created>1568105090983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568105090983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6149000" />
+    <option name="totallyTimeSpent" value="9640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,7 +371,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.288874" />
+      <window_info active="true" anchor="right" id="Maven" order="5" visible="true" weight="0.288874" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -306,41 +380,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update model" />
+    <option name="LAST_COMMIT_MESSAGE" value="update model" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/con23.java" />
-    <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/client/RestZhGoodsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhGoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4094" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNeedsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/fallback/ZhUserClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/fallback/ZhOrderClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/fallback/ZhGoodsClientFallBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -404,45 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhOrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNewsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhMessageMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhCollectionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -471,37 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -568,6 +546,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.722.2533/HZ$D.722.2536/wfcould/common/mycloud-common/mycloud-common-client/src/main/java/com/zb/fallback/QgGoodsTempStockClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.722.2533/HZ$D.722.2537/wfcould/common/mycloud-common/mycloud-common-client/src/main/java/com/zb/client/RestQgUserClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="240" column="32" selection-start-line="240" selection-start-column="32" selection-end-line="240" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhNewsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="84" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zh-client/src/main/java/com/zb/client/RestZhEvaluationClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -582,23 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.722.2533/HZ$D.722.2536/wfcould/common/mycloud-common/mycloud-common-client/src/main/java/com/zb/fallback/QgGoodsTempStockClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.722.2533/HZ$D.722.2537/wfcould/common/mycloud-common/mycloud-common-client/src/main/java/com/zb/client/RestQgUserClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zh-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -606,17 +598,293 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/resources/mapper/ZhNeedsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNeedsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhNewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhGoodsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-dao/src/main/java/com/zb/mapper/ZhCollectionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/apache-maven-3.6.1/re/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.zb:zh-client:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.zb:zh-client:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zb:zh-client:1.0-SNAPSHOT</node>
+            <node x="" y="">com.zb:zh-model:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.zb:zh-model:jar:1.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.6.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.4.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-core:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-core:jar:9.5.0/org.jvnet:animal-sniffer-annotation:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.6.6/com.google.code.findbugs:annotations:jar:2.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.6.6/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.6.6/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.4.26</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.4.26/com.netflix.archaius:archaius-core:jar:0.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.4.26/io.reactivex:rxjava:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxjava:jar:1.0.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9/com.netflix.servo:servo-core:jar:0.7.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.hystrix:hystrix-core:jar:1.4.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.sun.jersey:jersey-client:jar:1.19.1/com.sun.jersey:jersey-core:jar:1.19.1/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.servo:servo-core:jar:0.10.1/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/io.reactivex:rxjava:jar:1.0.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.fasterxml.jackson.core:jackson-core:jar:2.8.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
+            <node x="" y="">joda-time:joda-time:jar:2.9.9</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.24391157736980143" x="1005.0" y="1324.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhEvaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhGoods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNeeds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-model/src/main/java/com/zb/pojo/ZhUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>

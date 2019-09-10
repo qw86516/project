@@ -1,4 +1,7 @@
 package com.zb.pojo;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 /***
@@ -18,8 +21,12 @@ public class ZhOrder implements Serializable {
     //
     private Double price;
     //
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern ="yyyy-MM-dd",timezone="GMT+8")
     private Date createtime;
     //
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern ="yyyy-MM-dd",timezone="GMT+8")
     private Date updatetime;
     //get set 方法
     public void setId (Integer  id){
