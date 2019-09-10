@@ -21,7 +21,7 @@ public class ZhNeeds implements Serializable {
     private Double goodsPrice;
     //
     private  Integer issuedType;
-
+        //2
     public Integer getIssuedType() {
         return issuedType;
     }
