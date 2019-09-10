@@ -19,6 +19,17 @@ public class ZhNeeds implements Serializable {
     private String goodsModel;
     //
     private Double goodsPrice;
+    //
+    private  Integer issuedType;
+
+    public Integer getIssuedType() {
+        return issuedType;
+    }
+
+    public void setIssuedType(Integer issuedType) {
+        this.issuedType = issuedType;
+    }
+
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
