@@ -19,8 +19,6 @@ public class ZhNeeds implements Serializable {
     private String goodsModel;
     //
     private Double goodsPrice;
-    //
-    private Integer issuedType;
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
@@ -63,11 +61,5 @@ public class ZhNeeds implements Serializable {
     }
     public  Double getGoodsPrice(){
         return this.goodsPrice;
-    }
-    public void setIssuedType (Integer  issuedType){
-        this.issuedType=issuedType;
-    }
-    public  Integer getIssuedType(){
-        return this.issuedType;
     }
 }
