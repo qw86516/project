@@ -14,7 +14,7 @@ public interface ZhEvaluationMapper {
 
 	public Integer getZhEvaluationCountByMap(Map<String,Object> param)throws Exception;
 
-	public Integer insert`ZhEvaluation(ZhEvaluation zhEvaluation)throws Exception;
+	public Integer insertZhEvaluation(ZhEvaluation zhEvaluation)throws Exception;
 
 	public Integer updateZhEvaluation(ZhEvaluation zhEvaluation)throws Exception;
 
