@@ -18,6 +18,7 @@
         <module>zh-model</module>
         <module>zh-client</module>
         <module>zh-util</module>
+        <module>zh-dto</module>
     </modules>
     <dependencies>
         <dependency>
