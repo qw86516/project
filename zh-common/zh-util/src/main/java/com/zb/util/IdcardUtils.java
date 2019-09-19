@@ -402,7 +402,7 @@ public class IdcardUtils extends StringUtils {
     }
 
     /**
-     * 将power和值与11取模获得余数进行校验码判断
+     * 将power和与11取模获值得余数进行校验码判断
      * 
      * @param iSum
      * @return 校验位

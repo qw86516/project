@@ -60,7 +60,7 @@
                 </if>
         </trim>
         <if test="beginPos != null and pageSize != null ">
-            limit #{beginPos},#{pageSize}
+            limit ${beginPos},${pageSize}
         </if>
     </select>
 
@@ -139,4 +139,17 @@
                         </if>
         </trim>
     </update>
+    <!--<select id="showpage" resultType="com.zb.pojo.ZhNeeds" parameterType="java.util.Map">-->
+        <!--SELECT * FROM zh_needs.zh_needs-->
+         <!--AS n LEFT JOIN zh_user.zh_user-->
+         <!--AS u ON n.userId = u.id-->
+        <!--<trim prefix="where" prefixOverrides="and | or">-->
+            <!--<if test="userId != null and userId!=''">-->
+                <!--and userId=#{userId}-->
+            <!--</if>-->
+        <!--</trim>-->
+        <!--<if test="beginPos != null and pageSize != null ">-->
+            <!--limit ${beginPos},${pageSize}-->
+        <!--</if>-->
+    <!--</select>-->
 </mapper>

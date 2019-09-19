@@ -18,5 +18,5 @@ public interface ZhNeedsMapper {
 
 	public Integer updateZhNeeds(ZhNeeds zhNeeds)throws Exception;
 
-
+	//public List<ZhNeeds> getZhNeedsPage(Map<String,Object> param)throws Exception;
 }

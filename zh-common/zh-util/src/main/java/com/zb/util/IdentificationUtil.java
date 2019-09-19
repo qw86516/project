@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class IdentificationUtil {
     // 身份证识别URL
-        private static String idcardIdentificate = "https://aip.baidubce.com/rest/2.0/ocr/v1/idcard";
+    private static String idcardIdentificate = "https://aip.baidubce.com/rest/2.0/ocr/v1/idcard";
     // 获取 access_token URL
     private static String GETTOKEN_URL = "https://aip.baidubce.com/oauth/2.0/token";
     // 用户的API_KEY

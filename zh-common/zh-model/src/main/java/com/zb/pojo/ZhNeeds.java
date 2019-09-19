@@ -21,7 +21,18 @@ public class ZhNeeds implements Serializable {
     private Double goodsPrice;
     //
     private  Integer issuedType;
-        //2
+    //
+//    private ZhUser zhUser;
+//
+//    public ZhUser getZhUser() {
+//        return zhUser;
+//    }
+//
+//    public void setZhUser(ZhUser zhUser) {
+//        this.zhUser = zhUser;
+//    }
+
+    //2
     public Integer getIssuedType() {
         return issuedType;
     }

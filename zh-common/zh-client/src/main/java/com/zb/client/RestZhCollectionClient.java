@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 /**
 * Created by shang-pc on 2018/5/15.
 */
-@FeignClient(name = "zh-order-provider", fallback = ZhCollectionClientFallBack.class)
+@FeignClient(name = "mycloud-order-provider", fallback = ZhCollectionClientFallBack.class)
 public interface RestZhCollectionClient {
 @RequestMapping(value = "/getZhCollectionById",method = RequestMethod.POST)
 public ZhCollection getZhCollectionById(@RequestParam("id") Long id)throws Exception;

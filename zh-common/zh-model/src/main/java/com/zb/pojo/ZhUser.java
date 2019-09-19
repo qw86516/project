@@ -1,7 +1,4 @@
 package com.zb.pojo;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.io.Serializable;
 import java.util.Date;
 /***
@@ -19,9 +16,17 @@ public class ZhUser implements Serializable {
     //
     private String wxUserId;
     //
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern ="yyyy-MM-dd",timezone="GMT+8")
     private Date createtime;
+    //
+    private String fullName;
+    //
+    private String idNumber;
+    //
+    private String idPositive;
+    //
+    private String idBack;
+    //
+    private Integer examineState;
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
@@ -58,5 +63,35 @@ public class ZhUser implements Serializable {
     }
     public  Date getCreatetime(){
         return this.createtime;
+    }
+    public void setFullName (String  fullName){
+        this.fullName=fullName;
+    }
+    public  String getFullName(){
+        return this.fullName;
+    }
+    public void setIdNumber (String  idNumber){
+        this.idNumber=idNumber;
+    }
+    public  String getIdNumber(){
+        return this.idNumber;
+    }
+    public void setIdPositive (String  idPositive){
+        this.idPositive=idPositive;
+    }
+    public  String getIdPositive(){
+        return this.idPositive;
+    }
+    public void setIdBack (String  idBack){
+        this.idBack=idBack;
+    }
+    public  String getIdBack(){
+        return this.idBack;
+    }
+    public void setExamineState (Integer  examineState){
+        this.examineState=examineState;
+    }
+    public  Integer getExamineState(){
+        return this.examineState;
     }
 }

@@ -11,7 +11,12 @@
                 phone as phone,
                 password as password,
                 wxUserId as wxUserId,
-                createtime as createtime
+                createtime as createtime,
+                fullName as fullName,
+                idNumber as idNumber,
+                idPositive as idPositive,
+                idBack as idBack,
+                examineState as examineState
         from zh_user
         <trim prefix="where" prefixOverrides="and | or">
             <if test="id != null">
@@ -27,7 +32,12 @@
                 phone as phone,
                 password as password,
                 wxUserId as wxUserId,
-                createtime as createtime
+                createtime as createtime,
+                fullName as fullName,
+                idNumber as idNumber,
+                idPositive as idPositive,
+                idBack as idBack,
+                examineState as examineState
         from zh_user
         <trim prefix="where" prefixOverrides="and | or">
                 <if test="id != null and id!=''">
@@ -47,6 +57,21 @@
                 </if>
                 <if test="createtime != null and createtime!=''">
                     and createtime=#{createtime}
+                </if>
+                <if test="fullName != null and fullName!=''">
+                    and fullName=#{fullName}
+                </if>
+                <if test="idNumber != null and idNumber!=''">
+                    and idNumber=#{idNumber}
+                </if>
+                <if test="idPositive != null and idPositive!=''">
+                    and idPositive=#{idPositive}
+                </if>
+                <if test="idBack != null and idBack!=''">
+                    and idBack=#{idBack}
+                </if>
+                <if test="examineState != null and examineState!=''">
+                    and examineState=#{examineState}
                 </if>
         </trim>
         <if test="beginPos != null and pageSize != null ">
@@ -75,6 +100,21 @@
                 <if test="createtime != null and createtime!=''">
                     and createtime=#{createtime}
                 </if>
+                <if test="fullName != null and fullName!=''">
+                    and fullName=#{fullName}
+                </if>
+                <if test="idNumber != null and idNumber!=''">
+                    and idNumber=#{idNumber}
+                </if>
+                <if test="idPositive != null and idPositive!=''">
+                    and idPositive=#{idPositive}
+                </if>
+                <if test="idBack != null and idBack!=''">
+                    and idBack=#{idBack}
+                </if>
+                <if test="examineState != null and examineState!=''">
+                    and examineState=#{examineState}
+                </if>
         </trim>
     </select>
 
@@ -84,13 +124,23 @@
                         phone,
                         password,
                         wxUserId,
-                        createtime)
+                        createtime,
+                        fullName,
+                        idNumber,
+                        idPositive,
+                        idBack,
+                        examineState)
         values(
                      #{userName},
                      #{phone},
                      #{password},
                      #{wxUserId},
-                    #{createtime})
+                     #{createtime},
+                     #{fullName},
+                     #{idNumber},
+                     #{idPositive},
+                     #{idBack},
+                    #{examineState})
     </insert>
 
     <update id="updateZhUser" parameterType="com.zb.pojo.ZhUser">
@@ -109,7 +159,22 @@
                             wxUserId=#{wxUserId},
                         </if>
                         <if test="createtime != null and createtime!=''">
-                            createtime=#{createtime}
+                            createtime=#{createtime},
+                        </if>
+                        <if test="fullName != null and fullName!=''">
+                            fullName=#{fullName},
+                        </if>
+                        <if test="idNumber != null and idNumber!=''">
+                            idNumber=#{idNumber},
+                        </if>
+                        <if test="idPositive != null and idPositive!=''">
+                            idPositive=#{idPositive},
+                        </if>
+                        <if test="idBack != null and idBack!=''">
+                            idBack=#{idBack},
+                        </if>
+                        <if test="examineState != null and examineState!=''">
+                            examineState=#{examineState}
                         </if>
         </trim>
     </update>

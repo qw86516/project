@@ -47,4 +47,20 @@ public class ZhNeedsClientFallBack implements RestZhNeedsClient {
     public Integer qdtxModifyZhNeeds(ZhNeeds zhNeeds)throws Exception{
         return null;
     }
+
+//    @Override
+//    public List<ZhNeeds> getZhNeedsPage(Map<String, Object> param) throws Exception {
+//        List<ZhNeeds> list=new ArrayList<ZhNeeds>();
+//        ZhNeeds zhNeeds=new ZhNeeds();
+//        zhNeeds.setGoodsBrand("qwer");
+//        zhNeeds.setGoodsModel("ssss");
+//        zhNeeds.setGoodsName("sda");
+//        zhNeeds.setGoodsPrice(1.2);
+//        zhNeeds.setGoodsYear(null);
+//        zhNeeds.setId(1);
+//        zhNeeds.setUserId(3);
+//        zhNeeds.setIssuedType(1);
+//        list.add(zhNeeds);
+//        return list;
+//    }
 }
