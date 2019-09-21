@@ -1,65 +1,70 @@
 package com.zb.pojo;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.io.Serializable;
 import java.util.Date;
 /***
 *   
 */
 public class ZhGoods implements Serializable {
-    //
+    //商品编号
     private Integer id;
-    //
+    //商品名称
+    private String goodsName;
+    //商品价格
     private Double price;
-    //
+    //商品品牌
     private String brand;
-    //
+    //商品型号
+
     private String model;
-    //
+    //商品成色
+
     private String condition;
-    //
+    //商品产地
+
     private String origin;
-    //
+    //商品年份
     private String year;
-    //
+    //商品规格
     private String standards;
-    //
+    //商品数量
     private Integer num;
-    //
+    //商品详细地址
     private String address;
-    //
+    //商品所在地域
     private String location;
-    //
+    //商品图片
     private String pic;
-    //
+    //商品视频地址
     private String video;
-    //
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern ="yyyy-MM-dd",timezone="GMT+8")
+    //商品发布日期
     private Date createtime;
-    //
+    //商品收藏数量
     private Integer collection;
-    //
+    //商品浏览数
     private Integer browse;
-    //
+    //商品总浏览数
     private Integer totalBrowse;
-    //
+    //商品总收藏数
     private Integer totalCollection;
-    //
+    //商品标签
     private String lable;
-    //
+    //商品状态(1:在售，2:上架中,3:下架)
     private Integer status;
-    //
-    private String info;
-    //
-    private String brandName;
+    //发布类型(0:买机 1:卖机)
+
+    private Integer issuedType;
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
     }
     public  Integer getId(){
         return this.id;
+    }
+    public void setGoodsName (String  goodsName){
+        this.goodsName=goodsName;
+    }
+    public  String getGoodsName(){
+        return this.goodsName;
     }
     public void setPrice (Double  price){
         this.price=price;
@@ -175,16 +180,10 @@ public class ZhGoods implements Serializable {
     public  Integer getStatus(){
         return this.status;
     }
-    public void setInfo (String  info){
-        this.info=info;
+    public void setIssuedType (Integer  issuedType){
+        this.issuedType=issuedType;
     }
-    public  String getInfo(){
-        return this.info;
-    }
-    public void setBrandName (String  brandName){
-        this.brandName=brandName;
-    }
-    public  String getBrandName(){
-        return this.brandName;
+    public  Integer getIssuedType(){
+        return this.issuedType;
     }
 }
